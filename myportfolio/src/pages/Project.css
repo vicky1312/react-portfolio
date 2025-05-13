@@ -1,0 +1,26 @@
+.project-wrapper{
+    padding: 5rem;
+    width: 80rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: grey 0.5rem 0.5rem 1rem 0.5rem;
+    justify-content: center;
+    justify-self: center;
+    gap: 3rem;
+}
+.project-card{
+    width: 15rem;
+    height: 20rem;
+    border: solid 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.project-card:hover{
+    box-shadow: grey 0.2rem 0.4rem 0.3rem ;
+    width: 20rem;
+    height: 20rem;
+
+}
+/* .project-board{
+    
+} */

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&display=swap');
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  color: black;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+.body-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-section{
+  display: flex;
+
+}
+.contact-wrapper{
+  background-color: black;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
+  color: white;
+}

@@ -65,7 +65,7 @@ h2{
     color: black;
 }
 h4{
-    color: black;
+    color: grey;
 }
 @media (max-width: 1100px){
     html, body{

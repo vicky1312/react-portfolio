@@ -6,7 +6,6 @@ import './pages/About.css'
 import './pages/Contact.css'
 import './pages/Header.css'
 import './pages/Project.css'
-import AppLayout from './layouts/AppLayout'
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Project from "./pages/Project"

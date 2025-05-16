@@ -20,12 +20,11 @@ import {
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<AppLayout />}> 
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />}>
       <Route path="contact" element={<Contact />} />
       <Route path="about" element={<About />} />
       <Route path ="project" element={<Project />}/>
-    </Route>
+      </Route>
   )
 )
 

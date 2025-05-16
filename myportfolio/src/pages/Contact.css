@@ -1,9 +1,20 @@
 .socials{
     display: flex;
+    flex-wrap: wrap;
     gap: 5rem;
     font-size: 2rem;
+    flex-wrap: wrap;
   }
   .contacts{
     display: flex;
+    flex-wrap: wrap;
     gap: 3rem;
+  }
+  @media (max-width: 400px){
+    .contacts{
+      gap: 0.2rem;
+    }
+    .socials{
+      gap: 3rem;
+    }
   }

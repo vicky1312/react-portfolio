@@ -1,11 +1,15 @@
 import About from "../pages/About"
 import Contact from "../pages/Contact"
 import Project from "../pages/Project"
+import Header from "./header"
 import './Home.css'
 import { Outlet } from "react-router-dom"
 function Home(){
     return(
-        <>
+        <div className="home-wrapper">
+             <header>
+                <Header />
+            </header>
             <div className="body-wrapper" id="about">
                     <About />
             </div>
@@ -14,11 +18,13 @@ function Home(){
             <Project />
             </div> 
             
-            <div className="contact-wrapper" id="contact">
+            <footer className="contact-wrapper" id="contact">
                 <Contact />
-            </div>
-          
-        </>
+            </footer>
+            <main>
+                <Outlet />
+            </main>
+        </div>
     )
 }
 export default Home

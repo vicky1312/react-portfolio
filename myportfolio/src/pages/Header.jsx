@@ -3,7 +3,8 @@ function Header(){
     return (
 
         <>
-              <h1>HELLO</h1>
+              <h1 className="head">HELLO</h1>
+              <h1 className="mobile-head">HELLO THERE</h1>
                 <div className="links">
                 <NavLink to="/" className="header-link">Home</NavLink>
                 <a href="#about" className="header-link">About</a>

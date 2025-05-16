@@ -23,7 +23,7 @@ function Contact(){
             </div>
             <div className="contacts">
             <p> <AiOutlineMail /> victoryabayomi@gmail.com</p>
-            <p> <BsTelephone /> +2348022075698 +2347062137225</p>
+            <p> <BsTelephone /> +2348022075698 </p>
             </div>
            
         

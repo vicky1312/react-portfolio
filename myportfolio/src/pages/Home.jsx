@@ -1,7 +1,7 @@
 import About from "../pages/About"
 import Contact from "../pages/Contact"
 import Project from "../pages/Project"
-import Header from "./header"
+import Header from "../pages/Header"
 import './Home.css'
 import { Outlet } from "react-router-dom"
 function Home(){

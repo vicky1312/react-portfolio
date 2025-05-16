@@ -9,7 +9,7 @@ import { useRef } from "react"
 function Project(){
         const projects = [
            { name:"Quotes", link: "https://ayproject.netlify.app/", image: Quotes, description: "A random quote generator app built with react using web-apis"},
-           {name:"Todo", link: "https://boriproject.netlify.app", image: Todo, description: "A react todo app with clear user interface "},
+           {name:"Todo", link: "https://aytodoapp.netlify.app/", image: Todo, description: "A react todo app with clear user interface "},
             {name: "Display", link: "https://68216215ee86c805f00f960e--splendorous-sawine-55d6cc.netlify.app/", image: Dark, description: "Using cookies to create a dark mode and light mode website"}, 
             {name:"Emoji", link: "https://vickyprojects.netlify.app/", image: Emoji, description: "An emoji website built using react"}, 
         ]

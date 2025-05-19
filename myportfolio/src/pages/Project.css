@@ -1,0 +1,72 @@
+.project-wrapper{
+    padding: 5rem;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: black 0.5rem 0.5rem 1rem 0.5rem;
+    justify-content: center;
+    justify-self: center;
+    gap: 3rem;
+    background-color: gray;
+}
+
+.project-card{
+    width: 15rem;
+    height: 25rem;
+    border: solid 2px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+a{text-decoration: none;}
+.project-card:hover{
+    box-shadow: black 0.4rem 0.4rem 0.3rem;
+    width: 20rem;
+    height: 25rem;
+    align-items: center;
+}
+.card-image{
+ width: 14rem;
+ height: 12rem;
+ border-radius: 2px;
+ padding-top: 0.5rem;
+}
+.project-desc{
+    width: 13rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+@media (max-width: 500px){
+    .project-wrapper{
+        width: 9rem;
+    }
+    .project-card{
+        width: 10rem;
+        height: 15rem;
+        padding-bottom: 5rem;
+
+    }
+    .project-card{
+        box-shadow: black 0.4rem 0.4rem 0.3rem;
+    }
+    
+    .card-image{
+        width: 9rem;
+    }
+    .project-desc{
+        font-size: 12px;
+        width: 10rem;
+    }
+    .card-info{
+        gap: 2px;
+    }
+}

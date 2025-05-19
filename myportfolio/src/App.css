@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&display=swap');
 body{
     display: flex;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     justify-items: center;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+    background-image: url("./assets/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 header {
@@ -38,14 +42,16 @@ a {
 .contact-wrapper{
   background-color: black;
   padding: 6rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
   margin-top: 3rem;
-  gap: 2rem;
-  color: white;
   margin-bottom: 0.1rem;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
 }
 .home-wrapper{
     display: flex;
@@ -58,12 +64,9 @@ footer{
     overflow: hidden;
 }
 p{
-    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h2{
-    color: black;
-}
+
 h4{
     color: grey;
 }
@@ -94,5 +97,11 @@ h4{
     }
     header{
         padding-left: 2.5rem;
+    }
+    .body-wrapper{
+        flex-direction: column;
+      }
+    .footer-content{
+        margin-right: 4rem;
     }
 }

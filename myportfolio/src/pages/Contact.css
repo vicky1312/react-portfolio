@@ -10,11 +10,14 @@
     flex-wrap: wrap;
     gap: 3rem;
   }
-  @media (max-width: 400px){
+  @media (max-width: 600px){
     .contacts{
       gap: 0.2rem;
+      display: flex;
+      flex-direction: column;
     }
     .socials{
       gap: 3rem;
+      
     }
   }

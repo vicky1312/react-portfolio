@@ -6,7 +6,7 @@ import { BsTelephone } from "react-icons/bs"
 
 function Contact(){
     return (
-        <>
+        < div className="footer-content">
         <h2>Contact me</h2>
             <div className="socials">
             <a href ="https://github.com/vicky1312" target="_blank" rel="noopener noreferrer" className="icon-link">
@@ -27,7 +27,7 @@ function Contact(){
             </div>
            
         
-        </>
+        </div>
     )
 }
 export default Contact

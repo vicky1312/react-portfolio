@@ -43,6 +43,7 @@ a{text-decoration: none;}
 .project-desc{
     width: 13rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
 }
 @media (max-width: 500px){
     .project-wrapper{
@@ -54,9 +55,8 @@ a{text-decoration: none;}
         padding-bottom: 5rem;
 
     }
-    .project-card:hover{
-        width: 10rem;
-        height: 15rem;
+    .project-card{
+        box-shadow: black 0.4rem 0.4rem 0.3rem;
     }
     
     .card-image{

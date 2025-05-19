@@ -8,7 +8,6 @@
   .app-list{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
   }
   .intro{
     font-size: 20px;
@@ -57,11 +56,33 @@
     position: relative;
     top: 3rem;
   }
+  @media (max-width: 1500px){
+    .css-logo{
+      top: 0rem;
+    }
+    .react-logo{
+      top: 0rem;
+    }
+    .profile-img{
+      margin-top: 3rem;
+    }
+  }
+
   @media (max-width: 700px){
     img{
-      width: 15rem;
+      width: 20rem;
     }
     .left-wrapper{
       padding-left: 4rem;
+    }
+    .logos{
+      display: none;
+    }
+    
+    .profile-img{
+      display: flex;
+      align-items: center;
+      margin-right: 4rem;
+      margin-top: 1rem;
     }
   }
